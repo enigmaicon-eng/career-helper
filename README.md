@@ -51,12 +51,25 @@ git clone https://github.com/Zal4DW/career-helper.git Career-Helper
 
 ### Verify Installation
 
-In Claude Code, type:
+**In Claude Code CLI:**
 ```
 /skills
 ```
-
 You should see `career-helper` in the list.
+
+**In Claude Desktop or Web App:**
+
+To activate and use the skill, simply say:
+```
+use skill career-helper
+```
+
+Or jump straight to using it:
+```
+"Help me optimize my CV for this job description"
+```
+
+The skill will automatically load when you ask questions related to job search, LinkedIn, or career assistance.
 
 ---
 
