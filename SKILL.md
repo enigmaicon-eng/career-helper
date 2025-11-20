@@ -1,6 +1,6 @@
 ---
 name: career-helper
-description: End-to-end career support for job seekers at all levels. Optimizes LinkedIn profiles, rewrites CVs for ATS systems, provides interview preparation with cited answers, researches companies and roles, identifies hiring managers and networking opportunities. Use when applying for jobs, preparing interviews, optimizing professional profiles, managing career transitions, or researching target companies and roles.
+description: End-to-end career support for job seekers at all levels. Optimizes LinkedIn profiles, rewrites CVs for ATS systems, provides interview preparation with cited answers, researches companies and roles, identifies hiring managers and networking opportunities. When Claude needs to optimize LinkedIn profiles, rewrite CVs for ATS, prepare for interviews, research companies and roles, identify hiring managers, or support job applications and career transitions.
 ---
 
 # Career Helper
