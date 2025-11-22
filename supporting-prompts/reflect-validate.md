@@ -31,6 +31,52 @@ Generate → Evaluate → If NEEDS_IMPROVEMENT → Refine → Re-evaluate
 
 ---
 
+## Language Compliance (UK English)
+
+**Check BEFORE capability-specific validation:**
+
+| Check | Pass | Fail |
+|-------|------|------|
+| **UK Spelling** | organisation, colour, behaviour, optimise, analyse, centre | organization, color, behavior, optimize, analyze, center |
+| **Em Dashes** | None present | — used anywhere |
+| **Override** | US role explicitly requires US English | Default should be UK |
+
+**Common UK vs US Spelling:**
+| UK (Correct) | US (Incorrect) |
+|--------------|----------------|
+| organisation | organization |
+| colour | color |
+| behaviour | behavior |
+| optimise | optimize |
+| analyse | analyze |
+| centre | center |
+| programme | program |
+| favour | favor |
+| honour | honor |
+| labour | labor |
+| recognise | recognize |
+| realise | realize |
+| specialise | specialize |
+| summarise | summarize |
+| personalise | personalize |
+| customise | customize |
+| prioritise | prioritize |
+| maximise | maximize |
+| minimise | minimize |
+
+**Language Validation Output Format:**
+```xml
+<language_evaluation>PASS | NEEDS_IMPROVEMENT | FAIL</language_evaluation>
+<language_feedback>
+- US spellings found: [list with UK corrections]
+- Em dashes found: [locations]
+</language_feedback>
+```
+
+**Note:** If user explicitly targets US role or requests US English, UK spelling check is skipped.
+
+---
+
 ## Validation Criteria by Capability
 
 ### 1. CV/ATS Optimization
