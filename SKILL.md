@@ -13,6 +13,7 @@ description: End-to-end career support for job seekers at all levels. Optimizes 
 - "Help me optimize my CV for [job description]" → CV/ATS optimization
 - "Who should I connect with at [Company]?" → Strategic networking
 - "I have an interview at [Company] next week" → Interview prep + research
+- "What are interviewers really looking for?" → Interviewer's perspective report
 - "Build me a LinkedIn content strategy" → Content coaching + calendar
 - "Research [Company] before I apply" → Company intelligence
 - "Review my LinkedIn profile for [role]" → Profile audit
@@ -42,13 +43,14 @@ I can help you with:
 - LinkedIn optimization (profile review, content strategy, post review)
 - ATS-optimized CV rewriting for specific roles
 - Deep company research with cited sources
-- Interview preparation with role-specific questions
+- Interview preparation with role-specific questions and STAR answers
+- Interviewer's perspective reports (what they're really assessing, red flags, how to think)
 - Strategic networking intelligence (who to connect with and how)
 - Full application strategy planning
 
 **What brings you here today?** Are you:
 - Applying for a specific role? (I can optimize your CV and research the company)
-- Preparing for an interview? (I can generate role-specific questions and talking points)
+- Preparing for an interview? (I can generate role-specific questions and show you what interviewers look for)
 - Building LinkedIn presence? (I can create a content strategy and calendar)
 - Exploring options? (Tell me about your situation and I'll guide you)
 
@@ -58,14 +60,15 @@ I work conversationally - you don't need to use all capabilities, just what help
 
 ## Core Capabilities
 
-This skill provides six integrated services:
+This skill provides seven integrated services:
 
 1. **LinkedIn Profile Optimization** - Headline, about section, skills ordering, API consistency
 2. **ATS-Optimized CV Rewriting** - Keyword saturation, semantic alignment, parsing safety
 3. **Company & Role Research** - Market analysis, company intelligence, hiring manager identification
 4. **Interview Preparation** - Role-specific questions, evidence-backed answers with citations
-5. **Strategic Networking Intelligence** - High-value LinkedIn connections, personalized outreach strategies
-6. **Application Strategy** - Timeline planning, follow-up protocols, stakeholder mapping
+5. **Interviewer's Perspective Reports** - What interviewers really assess, red flags, thinking frameworks
+6. **Strategic Networking Intelligence** - High-value LinkedIn connections, personalized outreach strategies
+7. **Application Strategy** - Timeline planning, follow-up protocols, stakeholder mapping
 
 ## About This Skill
 
@@ -178,6 +181,7 @@ NLP and recruitment AI specialist approach:
 Role-specific preparation engine:
 - 15-20 likely questions (behavioral, technical, situational, company-specific)
 - STAR answer frameworks using your actual experience
+- Interviewer's perspective for each question (what they're really assessing)
 - 5-7 pre-prepared adaptable stories
 - 8-10 intelligent questions to ask (by interviewer type)
 - Talking points, concern mitigation, execution tips
@@ -186,6 +190,31 @@ Role-specific preparation engine:
 All answers cite your real experience with evidence.
 
 **Output:** `{role-slug}-interview-prep.md` (MUST use interview-prep-template.md structure)
+
+---
+
+### 4b. Interviewer's Perspective Report (Standalone)
+
+**When to use:** Understanding what interviewers are really looking for (without full prep)
+**What you need:** Job description + CV (optional but helpful)
+**Load:** @`supporting-prompts/interviewer-perspective-guide.md`
+**Template:** @`templates/interviewer-perspective-template.md`
+
+Shows interview questions from the interviewer's viewpoint:
+- What they're REALLY assessing behind each question
+- What makes a strong answer (criteria, not scripts)
+- Red flags interviewers watch for
+- How to THINK about your answer (mental frameworks, not memorized responses)
+- Your experience to draw from (references your CV)
+
+Covers question categories:
+- Behavioral questions (past behavior as predictor)
+- Situational questions (hypothetical judgment tests)
+- Role-specific questions (technical/functional competency)
+- Cultural fit questions (values and working style)
+- "Why" questions (motivation and fit)
+
+**Output:** `{role-slug}-interviewer-perspective.md` (MUST use interviewer-perspective-template.md structure)
 
 ---
 
@@ -260,6 +289,7 @@ All outputs must follow these standards:
 ├── linkedin-updates-template.md
 ├── content-calendar-template.md
 ├── interview-prep-template.md
+├── interviewer-perspective-template.md
 ├── networking-intelligence-template.md
 └── application-strategy-template.md
 ```
@@ -280,6 +310,7 @@ career-outputs/
 ├── {role-slug}-content-calendar.md
 ├── {role-slug}-networking-intelligence.md
 ├── {role-slug}-interview-prep.md
+├── {role-slug}-interviewer-perspective.md
 └── {role-slug}-application-strategy.md
 ```
 
@@ -297,6 +328,8 @@ Use @ symbol to load these specialized prompts only when needed:
 - **@supporting-prompts/linkedin-posts-helper.md** - Content review and audience alignment (reactive analysis of existing posts)
 - **@supporting-prompts/content-strategy-coaching.md** - Content strategy coaching for sustainable 3x/week posting with authentic topics
 - **@supporting-prompts/interview-prep.md** - Role-specific question generation with STAR frameworks from real experience
+- **@supporting-prompts/interviewer-perspective-guide.md** - Questions from interviewer's viewpoint with thinking frameworks (not scripts)
+- **@supporting-prompts/deep-research-reflection.md** - Multi-cycle research with gap analysis, counter-evidence, and citation validation
 - **@supporting-prompts/usage-guide.md** - How to use this skill, quick start examples, capabilities list
 - **@supporting-prompts/reflect-validate.md** - Reflective validation workflow for quality assurance
 

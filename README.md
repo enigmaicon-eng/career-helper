@@ -126,6 +126,14 @@ Creates comprehensive tracking system with:
 - Intelligent questions to ask by interviewer type
 - Post-interview follow-up templates
 
+### 🎯 Interviewer's Perspective Reports (NEW)
+- See interview questions from the interviewer's viewpoint
+- What they're REALLY assessing behind each question
+- What makes a strong answer (criteria, not scripted responses)
+- Red flags interviewers watch for
+- How to THINK about your answer (mental frameworks, not memorization)
+- Available standalone or integrated into full interview prep
+
 ### 🤝 Strategic Networking
 - Identify 8-12 high-value LinkedIn connections
 - 3-tier prioritization (hiring managers, recruiters, stakeholders)
@@ -176,6 +184,7 @@ Or ask directly:
 "Help me optimize my CV for this job description"
 "Who should I connect with on LinkedIn at [Company]?"
 "I have an interview next week at [Company], help me prepare"
+"What are interviewers really looking for in my answers?"
 "Build me a LinkedIn content strategy"
 ```
 
@@ -223,6 +232,7 @@ career-outputs/
 ├── {role-slug}-content-calendar.md
 ├── {role-slug}-networking-intelligence.md
 ├── {role-slug}-interview-prep.md
+├── {role-slug}-interviewer-perspective.md
 └── {role-slug}-application-strategy.md
 ```
 
@@ -285,6 +295,11 @@ The skill uses **progressive disclosure** - loading specialized prompts only whe
 ```
 1. "I have an interview at [Company] for [Role] next Tuesday"
    → Company research + interview prep + questions to ask
+
+2. "What are interviewers really looking for?"
+   → Interviewer's Perspective report showing:
+   → What they assess, red flags, how to think about answers
+   → Mental frameworks instead of memorized scripts
 ```
 
 ---
@@ -293,6 +308,16 @@ The skill uses **progressive disclosure** - loading specialized prompts only whe
 
 ### Career Stage Context
 When you mention age, experience level, or stage-related concerns, the skill automatically loads career-stage-specific guidance to adapt all advice.
+
+### Deep Research Validation (NEW)
+All research uses a rigorous multi-cycle validation workflow:
+- **Gap Analysis** - After initial search, explicitly identify what's missing
+- **Counter-Evidence Search** - Actively search for information that contradicts initial findings
+- **Source Credibility Scoring** - Weight sources by reliability (SEC filings > news > Glassdoor > blogs)
+- **Red Flag Hunting** - Proactively search for negative information, layoffs, lawsuits, controversies
+- **Citation Requirements** - All factual claims include source URLs and access dates
+
+This ensures you get balanced, validated intelligence - not just the first search results.
 
 ### WebFetch Fallback
 When content is blocked (LinkedIn profiles, Glassdoor reviews, paywalled articles), the skill asks you to provide it via:
@@ -390,4 +415,4 @@ Your feedback helps make this skill better for everyone in the job search journe
 ---
 
 **Version:** Check [Releases](https://github.com/Zal4DW/career-helper/releases) for latest version
-**Last Updated:** 2025-11-14
+**Last Updated:** 2025-12-01

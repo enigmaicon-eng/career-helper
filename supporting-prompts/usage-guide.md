@@ -21,6 +21,9 @@ This guide helps users understand how to use the Career Helper skill effectively
 **"I have an interview next week at [Company], help me prepare"**
 → I'll research the company, generate role-specific questions with STAR answers, and create talking points
 
+**"What are interviewers really looking for in my answers?"**
+→ I'll generate an Interviewer's Perspective report showing what they assess, red flags they watch for, and how to think about your answers
+
 **"Research [Company Name] before I apply"**
 → I'll gather comprehensive intelligence: financials, culture, hiring manager, red flags, strategy
 
@@ -51,6 +54,11 @@ Depending on what you need, gather:
 - Job description
 - Company name
 - Interview stage (screening/technical/panel/final)
+
+**For Interviewer's Perspective Report:**
+- Job description (essential)
+- Your CV (optional but helps tailor "experience to draw from" guidance)
+- Interview stage (optional - affects question selection)
 
 **For Company Research:**
 - Company name
@@ -132,6 +140,15 @@ When you see `@` in the skill (e.g., `@supporting-prompts/company-research.md` o
 - Strategy for addressing gaps/concerns
 - Post-interview follow-up templates
 - Execution tips and timing guidance
+
+### 4b. Interviewer's Perspective Reports (NEW)
+- See questions from the interviewer's viewpoint
+- What they're REALLY assessing behind each question
+- What makes a strong answer (criteria, not scripts)
+- Red flags interviewers watch for
+- How to THINK about your answer (mental frameworks)
+- Covers: behavioral, situational, role-specific, cultural fit, "why" questions
+- Available standalone or integrated into full interview prep
 
 ### 5. Strategic Networking Intelligence
 - Identify hiring managers and direct team members

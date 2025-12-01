@@ -27,8 +27,24 @@
 
 #### Question 1: {Question text}
 
-**Why They're Asking:**
-{What they want to learn about you - e.g., leadership style, problem-solving approach, culture fit}
+**Interviewer's Perspective:**
+
+*What They're Really Assessing:*
+{The underlying competency, behaviour, or fit being evaluated - be specific}
+
+*What Makes a Strong Answer:*
+- {Criterion 1 - what good looks like}
+- {Criterion 2 - what demonstrates mastery}
+- {Criterion 3 - what sets excellent apart}
+
+*Red Flags They Watch For:*
+- {Red flag 1 - what makes them concerned}
+- {Red flag 2 - common mistakes}
+
+*How to Think About Your Answer:*
+{Mental framework - not a script, but a thinking approach}
+
+**Your Prepared Response:**
 
 **Recommended Structure:**
 {STAR or other structure recommendation}
