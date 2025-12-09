@@ -58,17 +58,17 @@ I work conversationally - you don't need to use all capabilities, just what help
 
 **Important:** Only load the usage guide when explicitly requested. For normal skill usage, proceed directly to helping with their stated need.
 
-## Core Capabilities
+## Capabilities
 
-This skill provides seven integrated services:
-
-1. **LinkedIn Profile Optimization** - Headline, about section, skills ordering, API consistency
-2. **ATS-Optimized CV Rewriting** - Keyword saturation, semantic alignment, parsing safety
-3. **Company & Role Research** - Market analysis, company intelligence, hiring manager identification
-4. **Interview Preparation** - Role-specific questions, evidence-backed answers with citations
-5. **Interviewer's Perspective Reports** - What interviewers really assess, red flags, thinking frameworks
-6. **Strategic Networking Intelligence** - High-value LinkedIn connections, personalized outreach strategies
-7. **Application Strategy** - Timeline planning, follow-up protocols, stakeholder mapping
+| # | Capability | Description |
+|:--|:-----------|:------------|
+| 1 | LinkedIn Profile Optimization | Headline, about section, skills ordering, API consistency |
+| 2 | ATS-Optimized CV Rewriting | Keyword saturation, semantic alignment, parsing safety |
+| 3 | Company & Role Research | Market analysis, company intelligence, hiring manager identification |
+| 4 | Interview Preparation | Role-specific questions, evidence-backed answers with citations |
+| 5 | Interviewer's Perspective Reports | What interviewers really assess, red flags, thinking frameworks |
+| 6 | Strategic Networking Intelligence | High-value LinkedIn connections, personalized outreach strategies |
+| 7 | Application Strategy | Timeline planning, follow-up protocols, stakeholder mapping
 
 ## About This Skill
 
