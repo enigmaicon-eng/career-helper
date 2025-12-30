@@ -62,6 +62,7 @@ description: End-to-end career support for job seekers at all levels. Optimizes 
 - "Research [Company] before I apply" → Company intelligence
 - "Who should I connect with at [Company]?" → Strategic networking
 - "Build me a LinkedIn content strategy" → Content coaching + calendar
+- "Rewrite my LinkedIn headline" → Headline-only optimization
 
 **Interviewing:**
 - "I have an interview at [Company] next week" → Interview prep + research
@@ -255,10 +256,20 @@ NLP and recruitment AI specialist approach:
 - Voice coaching (write authentically, not templates)
 - Professional, non-cheesy guidance grounded in experience
 
+**Option D - Headline-Only Optimization:**
+**Load:** @`supporting-prompts/linkedin-headline.md`
+- Goal-first approach (job search, thought leadership, client acquisition, networking, board/advisory)
+- Headlines as value statements, not job titles
+- Goal-aligned formulas for different headline structures
+- Keyword strategy by target audience
+- 3 options with trade-off analysis for each
+- Quick, focused optimization when full profile review not needed
+
 **Output:**
 - Option A: `{role-slug}-linkedin-profile-review.md` (use linkedin-updates-template.md)
 - Option B: `{role-slug}-content-review.md` (custom analysis format)
 - Option C: `{role-slug}-content-strategy.md` + `{role-slug}-content-calendar.md` (use content-calendar-template.md)
+- Option D: Headline recommendations in conversation (copy-paste ready)
 
 ---
 
@@ -502,6 +513,7 @@ Use @ symbol to load these specialized prompts only when needed:
 - **@supporting-prompts/networking-strategy.md** - Agentic parallel networking intelligence to identify strategic LinkedIn connections
 - **@supporting-prompts/ATS-Helper.md** - NLP recruitment AI specialist for CV optimization and keyword analysis
 - **@supporting-prompts/linkedin-profile-review.md** - Comprehensive profile audit and recruiter search optimization
+- **@supporting-prompts/linkedin-headline.md** - Goal-first headline optimization with value statements and keyword strategy
 - **@supporting-prompts/linkedin-posts-helper.md** - Content review and audience alignment (reactive analysis of existing posts)
 - **@supporting-prompts/content-strategy-coaching.md** - Content strategy coaching for sustainable 3x/week posting with authentic topics
 - **@supporting-prompts/interview-prep.md** - Role-specific question generation with STAR frameworks from real experience
