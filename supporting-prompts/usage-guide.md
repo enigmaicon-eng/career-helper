@@ -9,6 +9,9 @@ This guide helps users understand how to use the Career Helper skill effectively
 **"I want to review my LinkedIn profile for a [specific role]"**
 → I'll analyze your profile and provide specific optimization recommendations for target role positioning
 
+**"Rewrite my LinkedIn headline"**
+→ I'll ask your goal (job search, thought leadership, client acquisition, networking) and provide 3 headline options with trade-offs
+
 **"Help me build a LinkedIn content strategy - I want to post consistently but don't know what to share"**
 → I'll help you identify authentic content pillars from your expertise, create a 4-week posting calendar, and build your engagement network
 
@@ -49,6 +52,11 @@ Depending on what you need, gather:
 **For LinkedIn Review:**
 - Your LinkedIn profile URL
 - Target role/level (e.g., "Senior Data Analyst" or "VP of Engineering")
+
+**For LinkedIn Headline Optimization:**
+- Your current headline (or profile URL)
+- Your primary goal: job search, thought leadership, client acquisition, networking, or board/advisory
+- Target role or audience (who should find you)
 
 **For LinkedIn Content Strategy Coaching:**
 - Current role and years of experience
@@ -142,6 +150,14 @@ When you see `@` in the skill (e.g., `@supporting-prompts/company-research.md` o
 - Audit experience entries for role positioning
 - Review existing posts for audience alignment (reactive)
 - Discoverability optimization for recruiters
+
+### 1a. LinkedIn Headline-Only Optimization (NEW)
+- Goal-first approach: job search, thought leadership, client acquisition, networking, board/advisory
+- Headlines as value statements, not job titles
+- Goal-aligned formulas for different headline structures
+- Keyword strategy by target audience
+- 3 options with trade-off analysis
+- Quick, focused optimization when full profile review not needed
 
 ### 1b. LinkedIn Content Strategy Coaching (NEW)
 - Identify 3-5 authentic content pillars from your real expertise
