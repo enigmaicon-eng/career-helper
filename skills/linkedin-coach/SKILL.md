@@ -1,6 +1,6 @@
 ---
 name: linkedin-coach
-description: LinkedIn profile optimisation, headline crafting, content strategy coaching, post review, and video introduction scripts. Covers five modes from full profile audit to headline-only optimisation. Use when optimising LinkedIn profiles, building content strategy, reviewing posts, crafting headlines, or creating video introductions.
+description: This skill should be used when the user asks to "review my LinkedIn profile", "optimise my LinkedIn", "write a LinkedIn headline", "build a content strategy", "review my LinkedIn post", or "create a video introduction". Covers full profile audits, headline crafting, content strategy coaching, post review, and video introduction scripts across five modes.
 tags: linkedin, profile, content, headline, video, social, career
 ---
 
@@ -33,8 +33,8 @@ Comprehensive LinkedIn optimisation across five modes. Choose the one that fits 
 ## A. Full Profile Audit
 
 **What you need:** LinkedIn profile URL + career goals
-**Load:** @supporting-prompts/linkedin-profile-review.md
-**Template:** @templates/linkedin-updates-template.md
+**Load:** @references/linkedin-profile-review.md
+**Template:** @references/linkedin-updates-template.md
 
 Complete profile sections review:
 - Photo, banner, headline, about section
@@ -49,7 +49,7 @@ Complete profile sections review:
 ## B. Content Review (Reactive)
 
 **What you need:** Posts to review + target audience
-**Load:** @supporting-prompts/linkedin-posts-helper.md
+**Load:** @references/linkedin-posts-helper.md
 
 Analyse existing posts:
 - Audience alignment assessment
@@ -63,8 +63,8 @@ Analyse existing posts:
 ## C. Content Strategy Coaching (Proactive)
 
 **What you need:** Role, expertise areas, career goals, target audience
-**Load:** @supporting-prompts/content-strategy-coaching.md
-**Template:** @templates/content-calendar-template.md
+**Load:** @references/content-strategy-coaching.md
+**Template:** @references/content-calendar-template.md
 
 Build a sustainable posting strategy:
 - Discover 3-5 authentic content pillars from real expertise
@@ -81,7 +81,7 @@ Build a sustainable posting strategy:
 ## D. Headline-Only Optimisation
 
 **What you need:** Career goals + target audience
-**Load:** @supporting-prompts/linkedin-headline.md
+**Load:** @references/linkedin-headline.md
 
 Goal-first headline optimisation:
 - Job search, thought leadership, client acquisition, networking, or board/advisory
@@ -97,7 +97,7 @@ Goal-first headline optimisation:
 ## E. Video Introduction Optimiser
 
 **What you need:** Career goals, target audience, key messages
-**Load:** @supporting-prompts/linkedin-video.md
+**Load:** @references/linkedin-video.md
 
 30-second profile video script:
 - Hook, Value, Proof, CTA structure

@@ -1,6 +1,6 @@
 ---
 name: interview-master
-description: Interview preparation with role-specific questions and STAR frameworks, interviewer perspective reports showing what they really assess, realistic mock interview simulation with multiple personas, and post-interview coaching for rejection recovery. Use when preparing for interviews, understanding interviewer thinking, practising with mock interviews, or recovering from rejections.
+description: This skill should be used when the user asks to "prepare for an interview", "do a mock interview", "what do interviewers look for", "I got rejected", or "help me after an interview". Provides interview preparation with STAR frameworks, interviewer perspective reports, realistic mock interview simulation, and post-interview coaching for rejection recovery.
 tags: interview, preparation, mock, practice, rejection, coaching, star
 ---
 
@@ -31,8 +31,8 @@ Complete interview support - before, during practice, and after.
 ## 1. Interview Preparation
 
 **What you need:** CV + job description + company name + interview stage
-**Load:** @supporting-prompts/interview-prep.md
-**Template:** @templates/interview-prep-template.md
+**Load:** @references/interview-prep.md
+**Template:** @references/interview-prep-template.md
 
 Role-specific preparation:
 - 15-20 likely questions (behavioural, technical, situational, company-specific)
@@ -56,8 +56,8 @@ All answers cite your real experience with evidence.
 ## 2. Interviewer's Perspective Report
 
 **What you need:** Job description + CV (optional but helpful)
-**Load:** @supporting-prompts/interviewer-perspective-guide.md
-**Template:** @templates/interviewer-perspective-template.md
+**Load:** @references/interviewer-perspective-guide.md
+**Template:** @references/interviewer-perspective-template.md
 
 See questions from the interviewer's viewpoint:
 - What they're REALLY assessing behind each question
@@ -80,7 +80,7 @@ Question categories covered:
 ## 3. Mock Interview Simulation
 
 **What you need:** Interview prep document, interview type, persona preference
-**Load:** @supporting-prompts/mock-interview.md
+**Load:** @references/mock-interview.md
 
 Realistic interview practice:
 - Interviewer personas: recruiter, hiring manager, technical, panel, executive
@@ -97,8 +97,8 @@ Realistic interview practice:
 ## 4. Post-Interview Coaching & Recovery
 
 **What you need:** CV + job description + interview recollection + any feedback received
-**Load:** @supporting-prompts/post-interview-coaching.md
-**Template:** @templates/post-interview-debrief-template.md
+**Load:** @references/post-interview-coaching.md
+**Template:** @references/post-interview-debrief-template.md
 
 **Stage-Specific Diagnosis:**
 - WHERE rejection occurred (Application, Recruiter Screen, HM Screen, Technical, Final)

@@ -1,6 +1,6 @@
 ---
 name: application-optimizer
-description: ATS-optimised CV rewriting, company and role research with agentic parallel intelligence gathering, and application strategy planning. Use when tailoring CVs for ATS systems, researching target companies, or planning comprehensive application approaches.
+description: This skill should be used when the user asks to "optimise my CV", "tailor my CV for ATS", "research a company", "help me apply for a role", or "plan my application". Provides ATS-optimised CV rewriting, company and role research with parallel intelligence gathering, and application strategy planning.
 tags: cv, ats, resume, company, research, application, strategy
 ---
 
@@ -29,8 +29,8 @@ Research companies, optimise your CV for ATS systems, and plan your application 
 ## 1. Company & Role Research
 
 **What you need:** Company name, job description (optional but helpful)
-**Load:** @supporting-prompts/company-research.md
-**Template:** @templates/research-brief-template.md
+**Load:** @references/company-research.md
+**Template:** @references/research-brief-template.md
 
 Agentic parallel research covering:
 - Company fundamentals, leadership, financial health
@@ -49,10 +49,10 @@ Uses parallel WebSearch, WebFetch, and Task tool for comprehensive intelligence.
 ## 2. CV Optimisation for ATS
 
 **What you need:** Your current CV + target job description
-**Load:** @supporting-prompts/ATS-Helper.md
+**Load:** @references/ATS-Helper.md
 **Templates:**
-- @templates/cv-template.md for CV output
-- @templates/application-strategy-template.md for LinkedIn sync notes
+- @references/cv-template.md for CV output
+- @references/application-strategy-template.md for LinkedIn sync notes
 
 NLP and recruitment AI specialist approach:
 - Keyword and concept extraction from job description
@@ -70,7 +70,7 @@ NLP and recruitment AI specialist approach:
 ## 3. Application Strategy & Timeline
 
 **What you need:** Research brief + optimised CV + timeline constraints
-**Template:** @templates/application-strategy-template.md
+**Template:** @references/application-strategy-template.md
 
 Comprehensive planning:
 - Timeline and milestone planning
@@ -86,7 +86,7 @@ Comprehensive planning:
 ## Deep Research Validation
 
 All research uses a rigorous multi-cycle validation workflow:
-**Load:** @supporting-prompts/deep-research-reflection.md
+**Load:** @references/deep-research-reflection.md
 
 - **Gap Analysis** - After initial search, identify what's missing
 - **Counter-Evidence Search** - Actively search for contradicting information
@@ -97,7 +97,7 @@ All research uses a rigorous multi-cycle validation workflow:
 ## Reflective Validation
 
 After generating content, validate before presenting:
-**Load:** @supporting-prompts/reflect-validate.md
+**Load:** @references/reflect-validate.md
 
 **For CV/ATS:** Keyword coverage 70%+? Achievements quantified? ATS-safe formatting?
 **For Research:** All claims cited? Sources recent (<12mo)? All sections present?

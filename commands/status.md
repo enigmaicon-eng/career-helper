@@ -1,5 +1,4 @@
 ---
-name: status
 description: Check your career search progress and see what outputs have been generated
 ---
 

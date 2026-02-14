@@ -1,6 +1,6 @@
 ---
 name: career-transitions
-description: Portfolio and fractional career support with regional tax and legal guidance, and AI readiness assessment with upskilling roadmaps. Use when transitioning to fractional executive roles, building portfolio careers, or assessing AI skills for the modern job market.
+description: This skill should be used when the user asks to "go fractional", "build a portfolio career", "become a fractional executive", "assess my AI readiness", or "how do I show AI skills". Provides portfolio and fractional career support with regional tax and legal guidance, and AI readiness assessment with upskilling roadmaps.
 tags: portfolio, fractional, career-change, ai-readiness, transition, executive
 ---
 
@@ -29,8 +29,8 @@ Support for non-traditional career paths - fractional executive roles, portfolio
 ## 1. Portfolio & Fractional Career Support
 
 **What you need:** Skills inventory, income goals, target regions, current situation
-**Load:** @supporting-prompts/portfolio-career.md
-**Template:** @templates/portfolio-career-template.md
+**Load:** @references/portfolio-career.md
+**Template:** @references/portfolio-career-template.md
 
 Comprehensive portfolio career strategy:
 - Readiness assessment (financial, skills, personal)
@@ -53,8 +53,8 @@ Comprehensive portfolio career strategy:
 ## 2. AI Readiness Assessment
 
 **What you need:** Current role, target roles, existing AI experience
-**Load:** @supporting-prompts/ai-readiness.md
-**Template:** @templates/ai-readiness-template.md
+**Load:** @references/ai-readiness.md
+**Template:** @references/ai-readiness-template.md
 
 AI skills development for the modern job market:
 - Current AI proficiency assessment (tools, applications, understanding)

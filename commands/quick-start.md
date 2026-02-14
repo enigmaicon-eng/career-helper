@@ -1,5 +1,4 @@
 ---
-name: quick-start
 description: Guided entry point for new users - asks questions to find the right skill
 ---
 

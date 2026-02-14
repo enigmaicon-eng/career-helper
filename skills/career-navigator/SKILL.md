@@ -1,6 +1,6 @@
 ---
 name: career-navigator
-description: Strategic networking intelligence, 3-month job search planning with wellbeing integration, salary negotiation coaching with regional awareness (UK/US/EU/APAC), and multi-offer evaluation frameworks. Use when building networking strategies, planning structured job searches, negotiating salary, or comparing job offers.
+description: This skill should be used when the user asks to "plan my job search", "build a networking strategy", "negotiate my salary", "evaluate a job offer", "compare offers", or "create a 3-month plan". Provides strategic networking intelligence, job search planning with wellbeing integration, salary negotiation coaching (UK/US/EU/APAC), and multi-offer evaluation frameworks.
 tags: networking, salary, negotiation, offers, planning, job-search, strategy
 ---
 
@@ -31,8 +31,8 @@ Plan your search, build your network, and navigate offers.
 ## 1. Strategic Networking Intelligence
 
 **What you need:** Company name + target role + your background/LinkedIn
-**Load:** @supporting-prompts/networking-strategy.md
-**Template:** @templates/networking-intelligence-template.md
+**Load:** @references/networking-strategy.md
+**Template:** @references/networking-intelligence-template.md
 
 Agentic parallel research to identify high-value connections:
 - Hiring managers and direct team members
@@ -52,8 +52,8 @@ Uses parallel WebSearch to find 8-12 strategic people, prioritised in 3 tiers.
 ## 2. 3-Month Job Search Plan
 
 **What you need:** Career stage, current situation, target direction, constraints, existing materials
-**Load:** @supporting-prompts/three-month-plan.md
-**Template:** @templates/three-month-plan-template.md
+**Load:** @references/three-month-plan.md
+**Template:** @references/three-month-plan-template.md
 
 Comprehensive activity planning:
 - Define 3-4 audacious but achievable Month 3 goals
@@ -75,8 +75,8 @@ Comprehensive activity planning:
 ## 3. Salary Negotiation Coach
 
 **What you need:** Offer details, target region (UK/US/EU/APAC), competing offers (if any), priorities
-**Load:** @supporting-prompts/salary-negotiation.md
-**Template:** @templates/negotiation-strategy-template.md
+**Load:** @references/salary-negotiation.md
+**Template:** @references/negotiation-strategy-template.md
 
 Region-aware negotiation coaching:
 - Market compensation research via WebSearch
@@ -100,8 +100,8 @@ Region-aware negotiation coaching:
 ## 4. Offer Evaluation Framework
 
 **What you need:** Offer details, current situation, career priorities, region
-**Load:** @supporting-prompts/offer-evaluation.md
-**Template:** @templates/offer-evaluation-template.md
+**Load:** @references/offer-evaluation.md
+**Template:** @references/offer-evaluation-template.md
 
 Comprehensive offer analysis:
 - Total compensation normalisation (currency, CoL, tax, benefits)
@@ -118,7 +118,7 @@ Comprehensive offer analysis:
 
 ## Career Stage Adaptation
 
-**Load:** @supporting-prompts/career-stage-context.md
+**Load:** @references/career-stage-context.md
 
 This skill adapts advice based on your career stage:
 - **Early Career (Gen Z/Alpha)** - Building presence, demonstrating potential, portfolio emphasis

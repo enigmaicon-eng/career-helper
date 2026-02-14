@@ -1,5 +1,4 @@
 ---
-name: help
 description: Show all career-helper skills and find the right one for your situation
 argument-hint: "[optional: describe what you need help with]"
 ---
