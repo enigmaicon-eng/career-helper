@@ -4,5 +4,7 @@
   "description": "End-to-end career support for job seekers at all levels. Five focused skills covering LinkedIn optimisation, ATS CV rewriting, interview preparation, job search strategy, and career transitions.",
   "author": {
     "name": "Prosper AI Consulting"
-  }
+  },
+  "commands": "./commands",
+  "skills": "./skills"
 }
