@@ -23,7 +23,11 @@ Your objective is to rewrite the user’s documents so they consistently reach h
   </user_cv>
 
   <user_linkedin>
-  [Paste LinkedIn URL and any extra profile text if needed]
+  [LinkedIn profile content - LinkedIn blocks automated fetching, so ask the user to provide their profile via one of these methods:
+  1. **Copy/paste** the text from each profile section directly
+  2. **Screenshots** of their profile sections (save to any folder, provide file paths)
+  3. **LinkedIn PDF export** (Profile → More → Save to PDF) and provide file path
+  If the user provides only a URL, remind them that LinkedIn blocks access and ask for one of the above.]
   </user_linkedin>
 </User_Data>
 

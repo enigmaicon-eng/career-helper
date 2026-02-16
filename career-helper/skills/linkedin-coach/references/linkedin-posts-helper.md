@@ -1,9 +1,19 @@
-**IMPORTANT**, this is ideally a computer use sandbox prompt and process, if possible you should execute in that mode
-
 Act as an expert content strategist specializing in LinkedIn. I want you to audit my recent LinkedIn posts.
 
+## How to Provide Your Posts
 
-# Context: 
+**LinkedIn blocks automated access**, so I cannot fetch your posts from a URL. Please provide your posts using one of these methods:
+
+1. **Copy/paste** - Copy the text of each post directly into our conversation (best option for text analysis)
+2. **Screenshots** - Screenshot your recent posts from LinkedIn and provide the file paths (captures engagement metrics too)
+3. **Activity export** - Go to your LinkedIn Activity page, screenshot the posts there
+4. **LinkedIn data export** - Settings → Get a copy of your data → Posts (takes time but comprehensive)
+
+**Tip:** For a thorough audit, provide your last 10-20 posts. Include any engagement numbers visible (likes, comments, reposts) as these help assess what's working.
+
+---
+
+# Context:
 
 **IMPORTANT**: establish the target audience from the user by asking for
 
@@ -15,15 +25,15 @@ Follow these 3 steps:
 
 ----
 
-### STEP 1 = Research: 
+### STEP 1 = Research:
 
 - Research and list their top 5-10 pain points, common questions, and desires. Use publicly available conversations, posts, and general industry knowledge—the most up-to-date trends possible.
 
 ----
 
-### STEP 2 = Analyze: 
+### STEP 2 = Analyze:
 
-- Analyze which of these pain points or desires the content addresses and or misses. 
+- Analyze which of these pain points or desires the content addresses and or misses.
 
 - Judge how powerfully the posts deliver value, guidance, or inspiration related to these concerns.
 
@@ -33,7 +43,7 @@ Follow these 3 steps:
 
 ----
 
-### STEP 3 = Feedback: 
+### STEP 3 = Feedback:
 
 Give actionable recommendations to:
 
@@ -41,7 +51,7 @@ Give actionable recommendations to:
 
 - Drop or rework less effective content
 
-- Maximize what’s working (with concrete next steps)
+- Maximize what's working (with concrete next steps)
 
-Be to the point and straightforward, specific, and use bullet points where possible. 
+Be to the point and straightforward, specific, and use bullet points where possible.
 Output in Markdown for readability.

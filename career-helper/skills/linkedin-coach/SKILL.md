@@ -32,7 +32,7 @@ Comprehensive LinkedIn optimisation across five modes. Choose the one that fits 
 
 ## A. Full Profile Audit
 
-**What you need:** LinkedIn profile URL + career goals
+**What you need:** LinkedIn profile content (screenshots, copy/paste, or PDF export - see reference for options) + career goals
 **Load:** @references/linkedin-profile-review.md
 **Template:** @references/linkedin-updates-template.md
 

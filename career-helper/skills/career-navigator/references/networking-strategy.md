@@ -24,7 +24,7 @@ You are a Strategic Networking Intelligence Analyst specializing in executive re
   </user_background>
 
   <user_linkedin_url>
-  [User's LinkedIn profile URL - helps identify mutual connections]
+  [User's LinkedIn profile URL - for reference only. Note: LinkedIn blocks automated fetching, so this URL cannot be scraped. If mutual connections or profile details are needed, ask the user to screenshot or copy/paste the relevant sections.]
   </user_linkedin_url>
 
   <application_status>
