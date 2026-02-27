@@ -30,7 +30,7 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 
 **Important:** Never minimise the emotional challenge. A graduate terrified of their first interview deserves the same quality of support as a VP negotiating a package. Redundancy at 55 is a different experience from redundancy at 30. Let the user's situation shape how you present the tools.
 
-## The Five Skills - With Examples
+## The Nine Skills - With Examples
 
 ### Application Optimiser - Research, CV, and Strategy
 
@@ -212,6 +212,80 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 
 ---
 
+### Employer Footprint - See Yourself Through an Employer's Eyes
+
+**What it does:** Deep-research swarm audit of your digital footprint, producing a credit-report style dashboard with scoring across 8 dimensions, social media channel analysis, and employer-specific impression mapping.
+
+**Real example - checking your footprint before applying:**
+
+> **You say:** "Check my digital footprint before I apply to Spotify. My LinkedIn is linkedin.com/in/yourname, my GitHub is github.com/yourname, and my Twitter is @yourname. Here's my CV."
+>
+> **What happens:**
+> 1. Parallel research agents scan Google, LinkedIn, Twitter/X, GitHub, and other platforms simultaneously
+> 2. Analyses what Spotify's culture values and maps your presence against those values
+> 3. Produces a credit-report style dashboard scoring you on 8 dimensions (Professional Visibility, Brand Consistency, Thought Leadership, Cultural Fit, Red Flag Risk, Network Strength, Technical Credibility, Content Quality)
+> 4. Identifies strengths employers will notice and concerns that need addressing
+> 5. Generates likely interview questions based on your online presence
+> 6. Recommends specific career-helper skills to address any issues found
+>
+> **You get:** `yourname-footprint-dashboard.md`, `yourname-spotify-employer-impression.md`
+
+**Real example - general audit without a specific target:**
+
+> **You say:** "What would a recruiter find if they Googled me? I'm @yourname on most platforms."
+>
+> **What happens:**
+> 1. Searches for your name as a recruiter would
+> 2. Audits each social platform for professional impression
+> 3. Checks CV consistency against online presence
+> 4. Flags any concerning content or inconsistencies
+> 5. Produces a dashboard with action plan
+
+**When to use it:**
+- Before starting any job application process
+- When you want to know what employers will find about you online
+- After a long time away from the job market (career returners)
+- When you want to audit specific social media channels for professionalism
+
+---
+
+### Social Media Review - Quick Check Through Recruiter Eyes
+
+**What it does:** A lightweight social media review focused on what recruiters actually check. Designed to be quick, approachable, and especially useful for graduates and early career users.
+
+**Real example - graduate cleaning up before applying:**
+
+> **You say:** "I'm a graduate about to start applying for jobs. Can you check my social media? I'm @janesmith on Instagram and Twitter."
+>
+> **What happens:**
+> 1. Searches for your name and handles as a recruiter would
+> 2. Reviews public content on each platform for positive and negative signals
+> 3. Applies the "3-second test" - what impression does a recruiter get from a quick glance?
+> 4. Provides clear GREEN/AMBER/RED flags with specific examples
+> 5. Gives you a "quick wins" list - 5 things you can fix in 10 minutes
+>
+> **You get:** Conversational review with actionable advice, optionally saved to `janesmith-social-media-review.md`
+
+**Real example - checking a specific platform:**
+
+> **You say:** "Is my Twitter okay for employers? My handle is @yourhandle"
+>
+> **What happens:**
+> 1. Reviews your recent tweets, retweets, replies, and bio
+> 2. Assesses tone (professional, casual, confrontational)
+> 3. Flags anything an employer might notice
+> 4. Gives specific recommendations
+
+**When to use it:**
+- You're a graduate or early career and want a quick social media health check
+- You want to check a specific platform before applying
+- You want privacy settings guidance and cleanup advice
+- You want something faster and lighter than a full employer footprint analysis
+
+**How it differs from /employer-footprint:** Social Media Review is a quick health check. Employer Footprint is the full medical - with 8 scored dimensions, CV cross-referencing, company culture mapping, and interview question generation.
+
+---
+
 ### Career Transitions - Fractional, Portfolio, and AI Skills
 
 **What it does:** Portfolio and fractional career strategy with regional tax/legal guidance, plus AI readiness assessment.
@@ -245,11 +319,25 @@ In addition to skills, career-helper has three commands:
 | `/career-helper:quick-start` | Asks guided questions to find your starting point | You are brand new and want to be guided |
 | `/career-helper:status` | Shows all outputs you have generated and suggests next steps | You have used skills before and want to see progress |
 
+## Workspace Tip
+
+For the best experience, always use the same local folder for your career-helper sessions:
+
+```
+mkdir -p ~/career-helper-workspace
+cd ~/career-helper-workspace
+```
+
+This lets you build on previous analyses, keep all outputs in one place, and track progress across sessions with `/career-helper:status`.
+
 ## How Skills Connect
 
 Career-helper skills are designed to feed into each other. Here is how the outputs connect:
 
 ```
+Footprint Audit ──→ Fix Issues (LinkedIn, content, etc.)
+       │
+       ↓
 Company Research ──→ CV Optimisation ──→ LinkedIn Sync
        │                    │
        ↓                    ↓
