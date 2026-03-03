@@ -1,6 +1,6 @@
 ---
 name: getting-started
-description: This skill should be used when the user asks "how do I get started", "how do I use career-helper", "how do I get the best results", "what should I prepare", "what order should I use the skills", "tips for using career-helper", or "show me how this plugin works". Provides a comprehensive guide covering preparation checklists, recommended workflows, skill-by-skill tips, and power-user strategies for maximising career-helper output quality.
+description: This skill should be used when the user asks "how do I get started", "how do I use career-helper", "how do I get the best results", "what should I prepare", "what order should I use the skills", "tips for using career-helper", "show me how this plugin works", "give me the guide", "getting the best guide", or "can I get a guide to share". Provides a comprehensive guide covering preparation checklists, recommended workflows, skill-by-skill tips, power-user strategies, and a downloadable getting the best guide for maximising career-helper output quality.
 tags: getting-started, guide, help, how-to, tips, workflow, best-practices, onboarding
 ---
 
@@ -17,6 +17,7 @@ Get the most out of Career Helper. Whether you are a graduate writing your first
 | 3 | Workflow Planner | Get a personalised skill sequence for your situation |
 | 4 | Skill-by-Skill Tips | Maximise results from any specific skill |
 | 5 | Power User Strategies | Advanced techniques for experienced users |
+| 6 | Getting the Best Guide | Comprehensive downloadable guide with scenario-based walkthroughs |
 
 ## Quick Start
 
@@ -27,7 +28,26 @@ Get the most out of Career Helper. Whether you are a graduate writing your first
 "What order should I use the skills in?"
 "Give me tips for using the application optimiser"
 "Show me advanced ways to use career-helper"
+"Can I get the getting the best guide?"
+"Give me the guide to share with someone"
 ```
+
+---
+
+## 6. Getting the Best Guide
+
+**What you need:** Nothing - works for everyone
+**Load:** @references/getting-the-best-guide.md
+**PDF:** @references/getting-the-best-guide.pdf
+
+A comprehensive guide covering installation, folder setup, and three scenario-based walkthroughs: graduates starting out, experienced professionals between roles, and employed professionals wanting better positioning. Includes skill connection maps, common mistakes to avoid, and practical advice on LinkedIn copy/paste workflows.
+
+**Core approach:**
+- If the user asks for the guide, a downloadable version, or "how to get the best out of career-helper", present the key points from the guide conversationally and offer to save the PDF to their working folder
+- Use the guide content to answer specific questions about workflows, skill ordering, or what to prepare
+- The PDF version can be shared with others who want to use career-helper
+
+**Output:** Conversational guidance from the guide content; optionally saves `getting-the-best-from-career-helper.pdf` to the user's working folder
 
 ---
 
@@ -129,6 +149,7 @@ When the user invokes this skill without specifying a capability:
    - "I want to know what to prepare before I start" → Capability 2
    - "I need a plan for which skills to use and in what order" → Capability 3
    - "I want tips for getting better results from a specific skill" → Capability 4
+   - "Give me the getting the best guide" → Capability 6
 
 2. If the user is brand new or unsure, default to Capability 1 (Full Overview).
 
@@ -183,4 +204,4 @@ Or run **/career-helper:quick-start** if you want guided routing.
 
 ---
 
-*Getting Started Guide v1.5.0 | Career Helper Plugin | Prosper AI Consulting, UK*
+*Getting Started Guide v1.5.2 | Career Helper Plugin | Prosper AI Consulting, UK*
