@@ -160,7 +160,7 @@ Present the relevant options based on the user's assessment. Do not present all 
 - Isolation: no colleagues, no IT department, no HR
 - Every function is your problem: sales, finance, legal, marketing, product, operations
 - Income instability, especially in years 1-3
-- Failure rate: roughly 60% of UK businesses survive past 3 years (ONS data); 20% fail in year 1
+- Failure rate: verify current local survival/failure rates for the user's region before citing (e.g., UK: ONS business survival data; US: BLS Business Employment Dynamics)
 - Personal relationships strain under the pressure
 - No employer pension contributions, sick pay, or holiday pay
 - Mental health impact of constant uncertainty
@@ -567,9 +567,9 @@ Use WebSearch to provide current, evidence-based information for the user's spec
 - Success and failure rates for the specific path they are considering
 
 **Sources to prioritise:**
-- Government data (ONS, Companies House, gov.uk)
-- Professional body research (CIPD, CBI, IoD)
-- WEF Future of Jobs report
+- Government/open data sources for the user's region (e.g., UK: ONS/Companies House/gov.uk; US: BLS/Census/SBA; EU: Eurostat + national datasets)
+- Professional body research relevant to the user's region/sector (e.g., UK: CIPD/CBI/IoD; US: SHRM/AMA; EU: national equivalents)
+- WEF Future of Jobs report, ILO, OECD data
 - Sector-specific reports and salary surveys
 - Published case studies and founder interviews
 
