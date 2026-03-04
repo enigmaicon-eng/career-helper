@@ -561,8 +561,8 @@ Use WebSearch to provide current, evidence-based information for the user's spec
 **Research queries to run:**
 - "{User's target path} career transition {region} {current year}" (or use "latest")
 - "{User's industry} to {target sector} career change"
-- "Starting a business in {user's sector} UK"
-- "{Target sector} salary benchmarks UK"
+- "Starting a business in {user's sector} {region}"
+- "{Target sector} salary benchmarks {region}"
 - "{User's skills} transferable careers"
 - Success and failure rates for the specific path they are considering
 
