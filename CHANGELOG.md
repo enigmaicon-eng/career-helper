@@ -50,6 +50,24 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Version
 
 ---
 
+## [1.6.0] - 2026-03-03
+
+### Added
+- **New skill: `/ai-impact-assessment`** - AI impact analysis for career planning
+  - Phase 1 research reference for understanding AI disruption across industries
+  - Phase 2 assessment and action plan reference for personalised AI readiness
+  - Output template for structured AI impact reports
+- **New reference: "Getting the Best from Career Helper"** guide in getting-started skill
+  - Comprehensive guide to maximising value from all 10 skills
+  - Tips, workflows, and strategies for effective use
+- AI Impact Assessment integrated into help, quick-start, overview, and plugin manifest routing
+
+### Changed
+- Plugin version bumped to 1.6.0 (10 skills)
+- Updated all getting-started references with AI Impact Assessment integration
+
+---
+
 ## [1.5.1] - 2026-02-28
 
 ### Added

@@ -156,7 +156,7 @@ Step 4: /career-navigator (3-Month Plan)
 
 **Best for:** User questioning the traditional career ladder. Considering entrepreneurship, startup founding, public sector, charity, intrapreneurship, or multi-role career models. Not sure which direction is right.
 
-```
+```text
 Step 1: /career-transitions (Non-Linear Career Explorer)
         Input: Current situation, motivations, financial readiness, skills, risk tolerance
         Output: non-linear-career-exploration.md

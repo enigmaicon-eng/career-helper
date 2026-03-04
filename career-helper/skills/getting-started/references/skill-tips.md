@@ -176,7 +176,7 @@ Company Research → Interview Preparation → Mock Interview
 
 ### What Feeds Into What
 
-```
+```text
 Non-Linear Career Explorer → Portfolio/Fractional Strategy (if chosen)
 Non-Linear Career Explorer → 3-Month Plan (transition plan)
 Non-Linear Career Explorer → LinkedIn Repositioning → Application Optimiser

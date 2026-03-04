@@ -248,6 +248,7 @@ Present the relevant options based on the user's assessment. Do not present all 
 - Personal life, health, and relationships frequently suffer
 
 **Funding paths:**
+
 | Stage | Source | Typical Amount | What They Expect |
 |-------|--------|---------------|-----------------|
 | Pre-seed | Personal savings, friends/family | £10k-100k | Idea + early validation |
@@ -558,7 +559,7 @@ Non-linear careers require a clear story. Help the user build one.
 Use WebSearch to provide current, evidence-based information for the user's specific situation:
 
 **Research queries to run:**
-- "{User's target path} career transition UK 2025" (or relevant region/year)
+- "{User's target path} career transition {region} {current year}" (or use "latest")
 - "{User's industry} to {target sector} career change"
 - "Starting a business in {user's sector} UK"
 - "{Target sector} salary benchmarks UK"
