@@ -178,6 +178,7 @@ When the ageism persona is triggered, load ALL THREE ageism references alongside
 - **Role-specific** - Questions tailored to the actual role, not generic
 
 ### Tone of Voice
+- Address the user as "you", not by name: "You should prepare for..." not "Bethan should prepare for..." — default to second person for warmth and engagement; occasional name use is fine for emphasis
 - Avoid hyperbole and cinema poster phrasing (not "game-changing", "revolutionary", or "supercharge your career")
 - Use the **Oxford comma** (serial comma: "skills, experience, and qualifications")
 - Never use em dashes. Use commas, semicolons, colons, or full stops instead

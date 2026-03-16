@@ -221,6 +221,7 @@ For graduates and early career users, include:
 - **Proportionate** - Don't catastrophise minor issues
 
 ### Tone of Voice
+- Address the user as "you", not by name: "Your LinkedIn looks strong" not "Bethan's LinkedIn looks strong" — default to second person for warmth and engagement; occasional name use is fine for emphasis
 - Avoid hyperbole and cinema poster phrasing (not "game-changing", "revolutionary", or "supercharge your career")
 - Use the **Oxford comma** (serial comma: "skills, experience, and qualifications")
 - Never use em dashes. Use commas, semicolons, colons, or full stops instead

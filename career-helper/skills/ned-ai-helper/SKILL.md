@@ -366,6 +366,7 @@ For evidence-based challenge and validation, see @`about-ned-governance/referenc
 
 ### Tone and Language
 All outputs follow the Pragmatic Operator style:
+- **Second person:** Address the user as "you", not by name: "You should challenge the board on..." not "Sarah should challenge the board on..." — default to second person for warmth and engagement; occasional name use is fine for emphasis
 - **Direct:** No hedging or corporate speak
 - **Board-appropriate:** Strategic not operational language
 - **Evidence-based:** Reference statistics and frameworks

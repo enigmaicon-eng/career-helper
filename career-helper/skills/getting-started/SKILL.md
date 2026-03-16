@@ -183,6 +183,7 @@ Job searching is emotionally challenging at every level. Never minimise this. A 
 - **Inclusive** - Examples and language that work for all career levels, not just senior professionals
 
 ### Tone of Voice
+- Address the user as "you", not by name: "You might want to start with..." not "Bethan might want to start with..." — default to second person for warmth and engagement; occasional name use is fine for emphasis
 - Avoid hyperbole and cinema poster phrasing (not "game-changing", "revolutionary", or "supercharge your career")
 - Use the **Oxford comma** (serial comma: "skills, experience, and qualifications")
 - Never use em dashes. Use commas, semicolons, colons, or full stops instead
