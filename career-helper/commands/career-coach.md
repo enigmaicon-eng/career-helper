@@ -8,4 +8,4 @@ Launch a guided career coaching session with Tim.
 
 Tim is your personal career coach. He'll understand your situation, run the right skills in the right order on your behalf, and check in at every step.
 
-Invoke the career-helper:tim skill to begin. Tim will introduce himself and start the intake process.
+Launch the career-helper:tim agent to begin. Tim will introduce himself and start the intake process.
