@@ -6,6 +6,30 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Version
 
 ---
 
+## [1.8.0] - 2026-03-16
+
+### Added
+- **Tim — Career Coach** (`/career-helper:career-coach`) - Guided career coaching that orchestrates skills for you
+  - Semi-autonomous skill orchestration — Tim understands your situation and runs the right skills in the right order
+  - Structured checkpoints between skills using labelled DONE/SAVED/FLAG/NEXT format
+  - Non-deterministic sequencing — adapts based on your goals, urgency, flags, and emotional signals
+  - Session persistence via `career-helper-preferences.md` with consent-gated storage
+  - Accessibility support: dyslexia-friendly enhanced mode (signposting, numbered options, confirmation checks, no idioms, one decision per message)
+  - Colour-blind safe communication — all status conveyed through labels and words, never colour alone
+  - Returning user detection with privacy-safe identity confirmation before displaying personal data
+  - Error handling for skill failures with clear reporting and user choice
+  - Supportive coach persona — warm, encouraging, direct, never sycophantic
+- New command: `/career-helper:career-coach` to launch Tim
+- New skill: `tim` with 3 reference files (routing guide, dyslexia guide, checkpoint templates)
+
+### Changed
+- `/career-helper:help` updated with Tim in skill table and routing
+- `/career-helper:quick-start` mentions Tim as guided alternative at handoff
+- Plugin description updated to mention guided coaching
+- Plugin version bumped to 1.8.0 (11 skills including Tim)
+
+---
+
 ## [1.7.0] - 2026-03-03
 
 ### Added
