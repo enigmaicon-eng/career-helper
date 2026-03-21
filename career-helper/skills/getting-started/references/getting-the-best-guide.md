@@ -426,7 +426,8 @@ Whatever direction you choose, you need a story. The skill produces career narra
 
 - If you are not sure whether to stay or go, that is a valid starting point. The skill does not assume you have decided.
 - Run `/career-helper:career-coach` if you want Tim to help you think it through. He can run the AI impact assessment, career transitions explorer, and LinkedIn repositioning in sequence.
-- This is one of the areas where honest assessment matters most. The skill includes failure rates, financial realities, and genuine downsides. It is not trying to talk you into anything.
+- **The skill starts with a reality check.** Before exploring options, it walks you through the actual realities of working hours, sales, loneliness, family impact, and failure. This is not to put you off — it is to make sure your decision is clear-eyed. If you still want to do it after that conversation, you are better prepared than most.
+- **Thinking about joining a startup rather than founding one?** The skill covers that too, including the equity conversation — vesting schedules, liquidation preferences, dilution, exercise windows, and the honest maths of salary-vs-equity trade-offs. Most startup equity is worth nothing. That does not mean you should not join one, but you should join for the learning and network, not the lottery ticket.
 
 ---
 
