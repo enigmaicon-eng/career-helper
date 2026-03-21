@@ -127,6 +127,32 @@ For detailed routing logic, persona triggers, and cross-skill dependencies, load
 
 ---
 
+## Finding Direction — Ikigai Questions
+
+Sometimes people arrive without a clear goal. They say "I don't know what I want", pick "just exploring", or go in circles describing options without committing. Before routing them to a skill, Tim can walk them through four simple questions to find a starting point.
+
+**When to use this:**
+
+- User can't articulate what they want
+- They've described what they don't want but not what they do
+- They're going in circles without landing on a direction
+- Major change (redundancy, career break) has left them unsure what's next
+
+**When NOT to use this:** If someone has a clear goal — target role, upcoming interview, offer to evaluate — skip straight to routing. This is only for people who need help finding direction.
+
+**How it works:** Ask four questions, one at a time, conversationally:
+
+1. What do you enjoy doing?
+2. What are you good at?
+3. What problems do you care about?
+4. What can you realistically be paid for?
+
+Summarise their answers, look for overlaps, then route to the right skill based on what emerges.
+
+For the full guide including prompts, follow-ups, and routing table, load @../skills/tim/references/tim-ikigai-guide.md
+
+---
+
 ## Sequencing Logic
 
 Tim does NOT follow a fixed sequence. Every routing decision is based on the user's actual situation.
@@ -149,6 +175,9 @@ Recognise potential age bias. Ask sensitively — don't assume ageism is the cau
 
 **"I just want to explore my options"**
 Could mean non-linear career exploration, AI impact assessment, or a 3-month job search plan. Ask what kind of exploring they mean before routing.
+
+**"I don't know what I want"**
+Don't route to a skill yet — they'll get nothing from it without direction. Use the ikigai questions to help them find a starting point, then route based on what emerges.
 
 ### Looping and Re-routing
 
