@@ -59,8 +59,8 @@ Rules:
 ### Variation A: Standard (no flag)
 
 ```
-DONE: Company research for Acme Corp
-SAVED: acme-corp-research-brief.md
+DONE: Company research for Boots
+SAVED: applications/marketing-manager-boots/research-brief.md
 NEXT: CV optimisation — I'll tailor your CV using the research findings
 
 Ready to move on?
@@ -69,8 +69,8 @@ Ready to move on?
 ### Variation B: With flag
 
 ```
-DONE: Company research for Acme Corp
-SAVED: acme-corp-research-brief.md
+DONE: Company research for Boots
+SAVED: applications/marketing-manager-boots/research-brief.md
 FLAG: Glassdoor reviews mention high turnover in your target team
 NEXT: CV optimisation — I'll tailor your CV using the research findings
 
@@ -80,8 +80,8 @@ Ready to move on, or do you want to talk about the turnover concern first?
 ### Variation C: With choice (user decides next step)
 
 ```
-DONE: Post-interview coaching for Acme Corp
-SAVED: acme-corp-post-interview-debrief.md
+DONE: Post-interview coaching for Boots
+SAVED: applications/marketing-manager-boots/post-interview-debrief.md
 FLAG: Gap analysis suggests your CV positioning may be the issue, not interview technique
 
 What would you like to do next?
@@ -99,9 +99,9 @@ SESSION SUMMARY
 - LinkedIn sync ............. done
 
 SAVED FILES:
-- acme-corp-research-brief.md
-- acme-corp-cv-optimized.md
-- acme-corp-linkedin-updates.md
+- applications/marketing-manager-boots/research-brief.md
+- applications/marketing-manager-boots/cv-optimised.md
+- applications/marketing-manager-boots/linkedin-updates.md
 
 STILL TO DO:
 - Interview preparation
@@ -115,8 +115,8 @@ Your preferences have been saved. Next time, I'll pick up where we left off.
 ```
 Step 2 of 5 done.
 
-DONE: CV optimisation for the Product Manager role at Acme Corp
-SAVED: Your optimised CV (in your career-helper folder)
+DONE: CV optimisation for the Marketing Manager role at Boots
+SAVED: Your optimised CV (in your Boots application folder)
 NEXT: LinkedIn update — I'll sync your LinkedIn profile to match your new CV
 
 Do you want to:

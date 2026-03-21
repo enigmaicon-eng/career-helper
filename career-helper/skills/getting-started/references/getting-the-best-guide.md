@@ -49,6 +49,22 @@ Career Helper saves files as it works. Research briefs, optimised CVs, interview
 2. When you open Cowork, use the "Work in a folder" option and select that folder.
 3. Every session after that, select the same folder.
 
+Career Helper organises your files automatically. When you start working on an application, it creates a subfolder for that role inside an `applications/` directory. Everything for that application; your research brief, tailored CV, interview prep, and strategy; lives together in one place. Shared files like your three-month plan and preferences stay in the root folder.
+
+```
+Your folder/
+├── career-helper-preferences.md
+├── three-month-plan.md
+├── applications/
+│   ├── marketing-manager-boots/
+│   │   ├── research-brief.md
+│   │   ├── cv-optimised.md
+│   │   └── interview-prep.md
+│   └── head-fundraising-macmillan/
+│       ├── research-brief.md
+│       └── cv-optimised.md
+```
+
 This means your optimised CV from last Tuesday is still there when you run interview prep on Thursday. Your company research brief feeds directly into your application strategy. Your LinkedIn audit references your updated CV. The skills are designed to chain together, and a persistent folder is what makes that possible.
 
 If you forget and work without a folder, you can still use the skills, but you will need to re-upload materials each time and you will lose the cumulative benefit.
@@ -185,7 +201,7 @@ Critically, it feeds those learnings back into your CV and interview prep. Each 
 
 - Run `/career-transitions` if you are considering going fractional or portfolio. It covers readiness assessment, rate setting, IR35 considerations, and client acquisition strategy.
 - Use `/career-navigator` to evaluate and negotiate offers. The salary negotiation coach is region-aware (UK, US, EU, APAC) and covers total compensation including pension, equity, notice periods, and garden leave.
-- Your research briefs, CV versions, and interview prep all save to your folder. When you are managing five active applications simultaneously, this is the difference between preparation and chaos.
+- Your research briefs, CV versions, and interview prep all save to per-application folders. When you are managing five active applications simultaneously, each one has its own folder with everything in one place. That is the difference between preparation and chaos.
 
 ---
 

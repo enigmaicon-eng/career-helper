@@ -169,7 +169,7 @@ C: [Title] at [Company] | [Transformation/Initiative Led]
 
 ```
 A: [Title] | [Industry/Community] | [Interest/Side Project]
-   "Product Lead at Spotify | Music Tech | Building in Public"
+   "Marketing Lead at Boots | Retail & FMCG | Building Brand Loyalty"
 
 B: [Title] | [Shared Challenge/Interest] | Open to Connect
    "Engineering Manager | Navigating Hybrid Teams | Always Up for Coffee Chats"
