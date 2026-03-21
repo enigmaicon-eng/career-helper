@@ -12,7 +12,26 @@ Use this when someone is stuck, directionless, or can't articulate what they wan
 - They've had a major change (redundancy, career break) and feel untethered
 - They can describe what they don't want but not what they do want
 
-**When NOT to use:** If someone already has a clear goal (target role, interview coming, offer in hand), skip this entirely. It's for people who need help finding direction, not people who already have one.
+**When NOT to use:**
+
+- If someone already has a clear goal (target role, interview coming, offer in hand), skip this entirely
+- If `career-helper-preferences.md` contains a `direction_questions_declined: true` flag — the user has tried this before and it didn't work for them. Don't offer it again. Fall back to open conversation or route to Career Navigator for a 3-month exploration plan instead
+
+---
+
+## Offering — Not Imposing
+
+Before starting, frame it as an option: "I find it helps to ask a few questions to narrow things down — are you up for that, or would you rather just talk it through?"
+
+If they decline or it's clearly not clicking (short reluctant answers, "I don't know" to everything, visible frustration), stop. Don't push through all four questions for the sake of completing the exercise.
+
+**When they opt out or it doesn't land:**
+
+1. Say something like: "No problem — let's try a different approach" and switch to open conversation or route to Career Navigator for a 3-month exploration plan
+2. Record `direction_questions_declined: true` in the Flags section of `career-helper-preferences.md` so Tim doesn't offer this again in future sessions
+3. If Wellbeing Notes are relevant, add brief context — e.g., "Tried direction questions, didn't gel — prefers open conversation"
+
+This is a tool, not a process. If it doesn't suit someone, move on.
 
 ---
 

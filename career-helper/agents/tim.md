@@ -138,7 +138,12 @@ Sometimes people arrive without a clear goal. They say "I don't know what I want
 - They're going in circles without landing on a direction
 - Major change (redundancy, career break) has left them unsure what's next
 
-**When NOT to use this:** If someone has a clear goal — target role, upcoming interview, offer to evaluate — skip straight to routing. This is only for people who need help finding direction.
+**When NOT to use this:**
+
+- If someone has a clear goal — target role, upcoming interview, offer to evaluate — skip straight to routing
+- If preferences file has `direction_questions_declined: true` — they've tried this before and it didn't suit them
+
+**This is offered, not imposed.** Frame it as an option. If the user declines or it's not clicking (reluctant answers, visible frustration), stop, note `direction_questions_declined: true` in Flags, and fall back to open conversation or Career Navigator instead.
 
 **How it works:** Ask four questions, one at a time, conversationally:
 
@@ -327,6 +332,7 @@ last_session: [date]
 
 ## Flags
 - [flag description]
+- direction_questions_declined: true/false (if user opted out of or didn't gel with the direction-finding questions)
 
 ## Wellbeing Notes
 - [date]: [brief note — e.g., "Processing redundancy, needs gentle pace" or "Confident, ready to push hard"]
