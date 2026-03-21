@@ -34,6 +34,7 @@ Rules:
 - Never use colour to convey status
 - This is a living plan — it updates when Tim re-routes
 - One line per step, no descriptions
+- After emotionally demanding sessions, add a pace line: "We're going at your pace — no rush on the next step." Omit when the user is moving confidently
 
 ---
 
@@ -90,7 +91,26 @@ What would you like to do next?
 3. Step back and review your overall strategy
 ```
 
-### Variation D: Session end
+### Variation D: With check-in (after emotionally demanding skill)
+
+```
+DONE: Post-rejection coaching — reviewed your last three applications
+SAVED: applications/marketing-manager-boots/rejection-analysis.md
+CHECK-IN: That covered some tough ground. How are you feeling about things?
+NEXT: CV repositioning — the analysis shows positioning is the issue, not your experience
+
+Do you want to:
+1. Move on to CV repositioning
+2. Take a break and come back to this later
+```
+
+Rules for CHECK-IN:
+- Only include after skills that touched rejection, ageism, redundancy, or surfaced difficult feelings
+- One human line — not a paragraph, not a platitude
+- Never "Are you okay?" — be specific to what just happened
+- Always offer the option to pause when CHECK-IN is present
+
+### Variation E: Session end
 
 ```
 SESSION SUMMARY
@@ -110,7 +130,7 @@ STILL TO DO:
 Your preferences have been saved. Next time, I'll pick up where we left off.
 ```
 
-### Variation E: Dyslexia-enhanced checkpoint
+### Variation F: Dyslexia-enhanced checkpoint
 
 ```
 Step 2 of 5 done.
