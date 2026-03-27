@@ -187,43 +187,43 @@ These are critical - without answers, any rewrite would violate the framework's 
 
 | Question | Your Answer |
 |----------|-------------|
-| What product(s) did you manage? (e.g., fraud detection, payments, lending platform) | |
-| What was the AI/ML use case? (e.g., NLP chatbot, credit scoring model, anomaly detection) | |
-| Team size you led or collaborated with? | |
-| Number of users/customers impacted? | |
-| Revenue or cost impact? (even approximate: "saved $Xm", "grew revenue X%") | |
-| Adoption/engagement metrics? (DAU, MAU, conversion rate, NPS) | |
-| Delivery metrics? (features shipped, sprints, on-time delivery %) | |
-| Any specific tools/platforms? (AWS, Azure, Kafka, etc.) | |
-| Stakeholder level? (VP, C-suite, MD?) | |
-| Anything you're most proud of in this role? | |
+| What product(s) did you manage? (e.g., fraud detection, payments, lending platform) | I managed the implementation of the Home Lending originations product called as Encompass - I primarily led the regulatory reporting for HMDA. In my new role, I'm working with the ATM Channel Product team to deliver the cloud modernization project, focused on modernizing the customers experience as well as operational experience for ATMs. I have also delivered 4 use-cases related to AI/ML.|
+| What was the AI/ML use case? (e.g., NLP chatbot, credit scoring model, anomaly detection) | |In Home Lending - automated regulatory reporting using multiple data sources and using anomaly detection to improve accuracy and time to market. In Home Lending - automated credit scoring model to qualify customers for home loans. In ATM Channel - ARIES for automated ATM Resiliency Scoring that would enable operations and L3 teams proactively detect and mitigate issues with ATMs - both server issues, hardware issues, data issues etc. In ATM CHannel - ANDOP for automated decision making on cash levels and cash replenishments to improve cash forecasting and usage.
+| Team size you led or collaborated with? | In Home Lending - worked with 3 scrum teams with a total of 18 developers + 2 leads. In ATM Channel - worked with 4 scrum teams with a total of 30 developers + leads. In ATM Channel - leading a team of 2 product associates|
+| Number of users/customers impacted? |Use reasonable assumptions |
+| Revenue or cost impact? (even approximate: "saved $Xm", "grew revenue X%") | Use reasonable assumptions|
+| Adoption/engagement metrics? (DAU, MAU, conversion rate, NPS) | Use reasonable assumptions|
+| Delivery metrics? (features shipped, sprints, on-time delivery %) | Use reasonable assumptions|
+| Any specific tools/platforms? (AWS, Azure, Kafka, etc.) | AWS based solutions|
+| Stakeholder level? (VP, C-suite, MD?) | VPs, EDs and MDs.|
+| Anything you're most proud of in this role? |Conceptualised, pitched and delivered 4 production grade AI/ML products or use cases - described above |
 
 ### Role 2: Product Management Consultant - Accenture
 
 | Question | Your Answer |
 |----------|-------------|
-| What product(s)/client(s) did you work on? | |
-| What was the cloud product? (AWS, Azure, GCP? What service?) | |
-| Data migration scope? (TB migrated, number of clients, timeline) | |
-| Team size? | |
-| Number of enterprise clients served? | |
-| Business value delivered? (cost savings, efficiency gains) | |
-| What AI solutions did you build? | |
-| Executive stakeholder level? (Director, VP, C-suite?) | |
-| Any awards, recognitions, or promotions? | |
+| What product(s)/client(s) did you work on? | Data & Reporting platform for global Media client to enable C-Suite decision making. Customer analytics and revenue reporting platform for a Telecom operator. Digital dashboard suite on Tableau for content performance, subscriber growth and churn analysis|
+| What was the cloud product? (AWS, Azure, GCP? What service?) | GCP (bigQuery, Cloud Storage, Dataflow) for building scalable data marts. Tableau for visualization and executive dashboards|
+| Data migration scope? (TB migrated, number of clients, timeline) | Migrated ~5-10 TB of histroical customer and content consumption data. Consolidated 10+ legacy data sources into unified data marts. Delivered over ~6-9 months across multiple releases|
+| Team size? | 8-12 members (Data Engineers, BI Developers, PMs, QA)|
+| Number of enterprise clients served? | 3 large enterprise CMT clients (Fortune 500)|
+| Business value delivered? (cost savings, efficiency gains) |Reporitng TAT reduced by >50%. Delivered ~20-30% efficiency gains in reporting flows. Improved decision making |
+| What AI solutions did you build? |Built basic predictive models for churn analysis/content performance trends. Enabled data pipelines for future ML use cases |
+| Executive stakeholder level? (Director, VP, C-suite?) | Regularly presented dashboards, insights and workstream progress to leadership|
+| Any awards, recognitions, or promotions? | Awarded best solution feature for creating a ML-based Next best action feature for subscriber growth and churn for Digital News media clients - this was featured in CXO awards. Recognized as best consultant practitioner in CMT indsustry vertical for the year 2022.|
 
-### Role 3: Product Management Analyst - Wipro
+### Role 3: Product Strategy & Operations Analyst - Wipro
 
 | Question | Your Answer |
 |----------|-------------|
-| What product(s) did you manage? | |
-| Number of features shipped or managed? | |
-| Client industry/domain? | |
-| Team size? | |
-| Workshops conducted - how many, with whom? | |
-| Risks identified - any specific saves or outcomes? | |
-| Any process improvements with measurable impact? | |
-| Promotion or recognition during this period? | |
+| What product(s) did you manage? | Designed Target -state operating models and workflows for CMT clients. Built service delivery solutions for customer support, network operations, content workflows, subscriber and churn related solutions. Developed transition and pricing strategies for outsourcing and managed services engagements|
+| Number of features shipped or managed? | Led 8 transformation initiatives across multiple client engagements. Defined workflows, SLAs, and service design components for large-scale transformation programs|
+| Client industry/domain? | CMT|
+| Team size? | Worked with Cross-functional teams of 6-10 members. Collaborated wit architects, delivery leads and sales teams|
+| Workshops conducted - how many, with whom? | Conducted workshops related to requirements gathering, Process discovery, Future-state design with business and operations stakeholders|
+| Risks identified - any specific saves or outcomes? | Identified inefficienciesa nd redundancies in legacy workflows -> redesigned processes improving turnaround time. Reduced operational costs through optimized operating models|
+| Any process improvements with measurable impact? | Enabled cost savings of ~25-30% through optimozed delivery models. Accelerated transition timelines. Supported pre-sales and deal shaping for CMT clients. Built optimized pricing models, solution proposales and RFP responses and led client presentations.|
+| Promotion or recognition during this period? | Recognized as best consultant in CMT industry for the year 2019-20. Was promoted to next level in 2020.|
 
 ---
 
